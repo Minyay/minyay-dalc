@@ -1,0 +1,20 @@
+{
+    "name": "minyay/dalc",
+    "description": "Shared MySQL data access layer for Minyay services",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Minyay\\Dalc\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "aws/aws-sdk-php": "^3.99"
+    },
+    "config": {
+        "platform": {
+            "php": "8.3.19"
+        }
+    }
+}
